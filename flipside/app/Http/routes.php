@@ -1,5 +1,6 @@
 <?php
 
+use App\Setting;
 /*
 |--------------------------------------------------------------------------
 | Application Routes
@@ -12,5 +13,37 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    $settings = Setting::find(1);
+   // var_dump($settings);
+    return view('welcome', ['settings' => $settings]);
+});
+
+
+
+Route::post('/admin', function () {
+    $settings = Setting::find(1);
+    $pass = $_POST['password'];
+    if($pass == "tittens"){
+        session(['logged' => true]);
+        return view('control', ['settings' => $settings]);
+    }
+
+    return view('admin', ['settings' => $settings]);
+});
+
+Route::get('/store', function () {
+    $settings = Setting::find(1);
+    if(session('logged')) {
+        return view('store', ['settings' => $settings]);
+    }
+    return view('store', ['settings' => $settings]);
+});
+
+
+Route::post('/store', function () {
+    $settings = Setting::find(1);
+    if(session('logged')) {
+        return view('store', ['settings' => $settings]);
+    }
+    return view('store', ['settings' => $settings]);
 });

@@ -1,108 +1,79 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>The Flipside</title>
+@extends('layouts.main')
 
-        <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Mountains+of+Christmas" />
-        <link href="./css/bootstrap.css" rel="stylesheet" type="text/css">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        @section('content')
 
-        <style>
-            html, body {
-                height: 100%;
-                background-image: url("./img/footer_lodyas.png");
+        <div class="">
 
-            }
 
-            body {
-                margin: 0;
-                padding: 0;
-                width: 100%;
-                display: table;
-                font-weight: 100;
-                font-family: 'Mountains of Christmas';
-            }
-
-            .container {
-                text-align: center;
-                display: table-cell;
-                vertical-align: top;
-            }
-
-            .content {
-                text-align: center;
-                display: inline-block;
-            }
-
-            .title {
-                font-size: 45px;
-               color:green;
-            }
-
-            .title-2 {
-                    font-size: 25px;
-                    color:red;
-            }
-
-            .youtube{
-                position: relative;
-                padding-bottom: 56.25%; /* 16:9 */
-                height: 0;
-                margin-top:-45px;
-            }
-
-            .youtube iframe {
-                margin: auto;
-                position: absolute;
-                top: 0; left: 0; bottom: 0; right: 0;
-                width: 75%;
-                height: 75%;
-            }
-
-            hr.style17 {
-                width:75%;
-                border-top: 1px solid darkgray;
-                text-align: center;
-            }
-            hr.style17:after {
-                font-family: "Lucida Grande", "Lucida Sans Unicode", Verdana, Arial, Helvetica, sans-serif;
-                content: '\00a7';
-                display: inline-block;
-                position: relative;
-                top: -14px;
-                padding: 0 10px;
-                color: #8c8b8b;
-                font-size: 18px;
-                -webkit-transform: rotate(60deg);
-                -moz-transform: rotate(60deg);
-                transform: rotate(60deg);
-            }
-
-        </style>
-    </head>
-    <body>
-        <div class="container">
             <div class="content">
-                <div class="title">The Flipside </div>
-                <div class="title-2">Slutty Clause 3</div>
 
         </div>
             <div class="youtube">
-                <iframe  src="https://www.youtube.com/embed/HgVCArO5eTo?autoplay=1" frameborder="0" allowfullscreen></iframe>
+                <iframe  src="https://www.youtube.com/embed/w0LWxUKgAH4?list=PL24EF93F770DAF8D7&autoplay=1&rel=0" frameborder="0" allowfullscreen></iframe>
             </div>
 
-            <div class="footer">
-                <hr class="style17">
-                <div class="col-md-6 col-md-offset-3" style="">
-                    <div class="panel panel-default" style="background: black; border-color: gray">
-                        <div class="panel-body" style="color:white">
-                            <img style=" padding-left:25%;" class="img-responsive" src="./img/tSp5J0P.gif" />
-                            <h1>Get in contact to work with us!</h1>
-                            <h2>647-883-4343</h2>
+            <div class="container-fluid text-center">
+                <div class="col-md-3 col-sm-4 col-xs-6 ">
+                 <a href="https://www.youtube.com/watch?v=mr6WPKg7gpU" target="_blank"><img class="img-responsive thumbnail" src="./img/payne.png" /></a>
+                </div>
+                <div class="col-md-3 col-sm-4 col-xs-6 ">
+                    <a href="https://www.youtube.com/watch?v=4YYm3XyG0xs" target="_blank" ><img class="img-responsive thumbnail" src="./img/diving.jpg" /></a>
+                </div>
+
+                <div class="col-md-3 col-sm-4 col-xs-6 ">
+                    <a href="https://www.youtube.com/watch?v=w0LWxUKgAH4" target="_blank"><img class="img-responsive thumbnail" src="./img/thumb-1.jpg" /></a>
+                </div>
+                <div class="col-md-3 col-sm-4 col-xs-6 ">
+                    <a href="https://www.youtube.com/watch?v=XuZGEGL5jdE" target="_blank"><img class="img-responsive thumbnail" src="./img/nose.jpg" /></a>
+                </div>
+
+
+
+
+
+
+            </div>
+            <div class="container-fluid">
+                <div class="" style="">
+                    <div class="panel panel-default" style="background: black;border:0; ">
+                        <div class="panel-body text-center" style="color:white; border:0;">
+
+                            <div class="col-md-12">
+                                <script src="//instansive.com/widget/js/instansive.js"></script><iframe src="//instansive.com/widgets/99f3a5f88064c0ca040272d2b1066c0c57b67551.html" id="instansive_99f3a5f880" name="instansive_99f3a5f880"  scrolling="no" allowtransparency="true" class="instansive-widget" style="width: 100%; border: 0; overflow: hidden;"></iframe>
+                            </div>
+                           <!-- <img style=" padding-left:25%;" class="img-responsive" src="./img/tSp5J0P.gif" />-->
+                            <div class="col-md-12">
+                                <hr class="style17" style="margin-top: 15px;">
+                            </div>
+
+                            <div class="col-md-6">
+                                <div class="fb-page" data-href="https://www.facebook.com/FlipsideAdventures"
+                                     data-tabs="timeline" data-small-header="false" data-adapt-container-width="true"
+                                     data-hide-cover="false" data-show-facepile="true">
+                                    <div class="fb-xfbml-parse-ignore">
+                                        <blockquote cite="https://www.facebook.com/FlipsideAdventures"><a
+                                                    href="https://www.facebook.com/FlipsideAdventures">the Flipside</a>
+                                        </blockquote>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+
+                            <div class="fb-page" data-href="https://www.facebook.com/gymnasty" data-tabs="timeline"
+                                 data-small-header="false" data-adapt-container-width="true" data-hide-cover="false"
+                                 data-show-facepile="true" style="">
+                                <div class="fb-xfbml-parse-ignore">
+                                    <blockquote cite="https://www.facebook.com/gymnasty"><a
+                                                href="https://www.facebook.com/gymnasty">Leland Tilden</a></blockquote>
+                                </div>
+                            </div>
+                                </div>
+
+
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </body>
-</html>
+
+@endsection
