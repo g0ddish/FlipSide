@@ -39,7 +39,9 @@
                         <div class="panel-body text-center" style="color:white; border:0;">
 
                             <div class="col-md-12">
-                                <script src="//instansive.com/widget/js/instansive.js"></script><iframe src="//instansive.com/widgets/99f3a5f88064c0ca040272d2b1066c0c57b67551.html" id="instansive_99f3a5f880" name="instansive_99f3a5f880"  scrolling="no" allowtransparency="true" class="instansive-widget" style="width: 100%; border: 0; overflow: hidden;"></iframe>
+							<!-- SnapWidget -->
+<script src="https://snapwidget.com/js/snapwidget.js"></script>
+<iframe src="https://snapwidget.com/embed/364414" class="snapwidget-widget" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:100%; "></iframe>
                             </div>
                            <!-- <img style=" padding-left:25%;" class="img-responsive" src="./img/tSp5J0P.gif" />-->
                             <div class="col-md-12">
